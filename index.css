@@ -1,0 +1,27 @@
+body{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 160px 50px 50px 50px 50px 50px;
+    grid-column-gap: 50px;
+    margin: 0;
+}
+.img{
+    align-self: start;
+    width: 400px;
+}
+a {text-decoration: none;color: white}
+
+ul {
+    margin: 0;
+    padding:0px;
+    grid-column: 1/5;
+    display: flex;
+    list-style: none;
+}
+li {
+    grid-column: 1/5;
+    flex: 100%;
+    text-align: center;
+    background-color: grey;
+}
