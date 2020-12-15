@@ -4,7 +4,7 @@
         background-color: blanchedalmond;
         display: grid;
         grid-template-columns: 1fr 4fr;
-        grid-template-rows: 160px 50px 50px 50px 50px 50px;
+        grid-template-rows: 20px 50px 50px 50px 50px 50px;
         grid-column-gap: 50px;
         margin: 0;
     }
@@ -31,38 +31,40 @@
     .mobileNav{
         background-color: gray;
         grid-row:2;
-        grid-column: span 30;
+        grid-column: span 10;
     }
     .mobileNav2{
         background-color: gray;
         grid-row:3;
-        grid-column: span 30;
+        grid-column: span 10;
     }
     .mobileNav3{
         background-color: gray;
         grid-row:4;
-        grid-column: span 30;
+        grid-column: span 10;
     }
     .mobileNav4{
         background-color: gray;
         grid-row:5;
-        grid-column: span 30;
+        grid-column: span 10;
     }
     .mobileNav5{
         background-color: gray;
         grid-row:6;
-        grid-column: span 30;
+        grid-column: span 10;
     }
 
 
 
-    .top-bar{grid-column: 1/50; background-color: #66ffff; grid-row: 1}
+
+    .titlebar{grid-column: span 50; grid-row: 7}
 
     .bar1 {grid-column: 1}
 
     .bar2 {grid-column: 1}
 
     .bar3{grid-column: 1}
+    .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -119,7 +121,7 @@
         background-color: blanchedalmond;
         display: grid;
         grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 20px 50px 400px 70px;
+        grid-template-rows: 20px 50px 800px 600px;
         grid-column-gap: 50px;
         padding: 0;
         margin: 0;
@@ -154,4 +156,6 @@
     .bar2 {grid-column: 2;grid-row: 3;padding-top: 60px}
 
     .bar3{grid-column: 3; grid-row: 3}
+
+    .footer{grid-column:span 30; grid-row: 4; background-color: grey}
 }
