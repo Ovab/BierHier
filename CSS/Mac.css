@@ -1,7 +1,9 @@
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media all and (min-width: 300px) {
     body{
-        background-color: blanchedalmond;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'JetBrains Mono', "Roboto Thin";
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 1fr 6fr;
         grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto auto;
@@ -60,11 +62,13 @@
     .titlebar{grid-column: span 50; grid-row: 7}
 
     .bar1 {display: none; visibility: hidden}
-
+    .bar1{grid-column: 1;grid-row: 8; }
     .bar2 {grid-column: 1; grid-row: 9}
 
-    .bar3{grid-column: 1;grid-row: 10}
-    .bar4{grid-column: 1; grid-row: 11}
+    .bar3{display: none}
+    .bar3m{grid-column: 1; grid-row: 11;}
+
+    .bar4{grid-column: 1; grid-row: 10;}
     .bar1m{grid-column: 1; grid-row: 8}
     .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1}
     .footer{grid-column: 1/10; background-color: grey; grid-row: 12}
@@ -75,7 +79,9 @@
 
 @media only screen and (min-width: 800px) {
     body{
-        background-color: blanchedalmond;
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 1fr 6fr;
         grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto auto;
@@ -104,26 +110,31 @@
     .nav{display: none; visibility: hidden}
     .mobileNav{
         background-color: gray;
+        padding-left: 50px;
         grid-row:2;
         grid-column: span 15;
     }
     .mobileNav2{
         background-color: gray;
+        padding-left: 50px;
         grid-row:3;
         grid-column: span 15;
     }
     .mobileNav3{
         background-color: gray;
+        padding-left: 50px;
         grid-row:4;
         grid-column: span 15;
     }
     .mobileNav4{
         background-color: gray;
+        padding-left: 50px;
         grid-row:5;
         grid-column: span 15;
     }
     .mobileNav5{
         background-color: gray;
+        padding-left: 50px;
         grid-row:6;
         grid-column: span 15;
     }
@@ -134,24 +145,30 @@
 
     .titlebar{grid-column: 1/2; grid-row: 7}
 
-    .bar1 {grid-column: 1}
+    .bar1 {display: none; visibility: hidden}
+    .bar1m{grid-column: 1;grid-row: 9; margin-left: 50px}
+    .bar2 {grid-column: 1; grid-row: 9; margin-left: 50px}
 
-    .bar2 {grid-column: 1}
+    .bar3{display: none}
+    .bar3m{grid-column: 1; grid-row: 11; margin-left: 50px;}
 
-    .bar3{grid-column: 2; grid-row: 8}
+    .bar4{grid-column: 1; grid-row: 10; margin-left: 50px}
+    .bar1m{grid-column: 1; grid-row: 8}
     .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1}
-    .footer{grid-column: 1/10; background-color: grey;}
-    .footercontent{grid-column:1/10; grid-row: 11; color: white; margin:20px; background-color: grey}
+    .footer{grid-column: 1/10; background-color: grey; grid-row: 12}
+    .footercontent{grid-column:1/10; grid-row: 12; color: white; margin:20px; background-color: grey}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body{
+        max-width: 100%;
+        overflow-x: hidden;
         font-family: 'JetBrains Mono', "Roboto Thin";
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
-        grid-template-columns: 400px 400px;
-        grid-template-rows: 20px 50px auto 300px auto;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 20px 50px auto auto auto;
         grid-column-gap: 50px;
         padding: 0;
         margin: 0;
@@ -181,12 +198,14 @@
     .top-bar{grid-column: span 99; background-color: grey;
     }
 
-    .bar1 {grid-column: 1;grid-row: 3; padding-top: 130px; padding-left: 50px; display: grid; visibility: visible}
+    .bar1 {grid-column: 1;grid-row: 3; padding-top: 50px; padding-left: 50px; display: grid; visibility: visible}
 
     .bar2 {grid-column: 2;grid-row: 3;padding-top: 60px}
 
-    .bar3{grid-column: 1/2; grid-row: 4; margin-left: 50px}
+    .bar3{grid-column: 1; grid-row: 4; margin-left: 40px; display: grid; visibility: visible }
+    .bar3m{display: none; visibility: hidden}
     .bar1m{visibility: hidden; display: none}
+    .bar4{grid-column: 3; grid-row: 3; margin-top: 130px}
     .footer{grid-column:span 30; grid-row: 5; background-color: grey; margin-top: 100px}
     .footercontent{grid-column:span 30; grid-row: 5; color: white; margin:20px}
 
