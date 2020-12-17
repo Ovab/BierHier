@@ -8,6 +8,8 @@
         grid-template-rows: 20px 50px 50px 50px 50px 50px;
         grid-column-gap: 50px;
         margin: 0;
+        max-width: 100%;
+        overflow-x:hidden;
     }
     .img{
         align-self: center;
@@ -65,7 +67,7 @@
     .bar2 {grid-column: 1}
 
     .bar3{grid-column: 1}
-    .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1}
+    .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1;column-span: 30}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -129,23 +131,7 @@
     }
 
     a:link {
-        color: white;
-    }
-
-    /* visited link */
-    a:visited {
-        color: white;
-    }
-
-    /* mouse over link */
-    a:hover {
-        color: lightpink;
-    }
-
-    /* selected link */
-    a:active {
-        color: lightpink;
-
+        text-decoration: none;color: white
     }
 
     .ul {
@@ -184,5 +170,6 @@
 
     .bar5{grid-column: 1; grid-row: 3;padding-top: 600px;margin-left: 100px}
 
-    .footer{grid-column:span 30; grid-row: 4; background-color: grey}
+    .footer{grid-column:span 30; grid-row: 4; background-color: grey; margin-top: 100px}
+    .footercontent{grid-column:span 30; grid-row: 4; color: white; margin:20px}
 }
