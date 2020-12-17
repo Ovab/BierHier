@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21831638-cfce-4253-b83a-c1b146e2a79a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coke.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExplMeth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recepten.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recepten.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluemeth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meth-user.jpg" afterDir="false" />
+    <list default="true" id="21831638-cfce-4253-b83a-c1b146e2a79a" name="Default Changelist" comment="BierHier Project">
+      <change afterPath="$PROJECT_DIR$/Boerenkool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carbonara.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nasi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nasi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PastaCarbonara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stampot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kok.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExplMeth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recepten.css" beforeDir="false" afterPath="$PROJECT_DIR$/Recepten.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recepten.html" beforeDir="false" afterPath="$PROJECT_DIR$/Recepten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluemeth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meth-user.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,11 +51,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karst\OneDrive\Documents\GitHub\BierHier" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karst\OneDrive\Documents\GitHub\BierHier" />
     </key>
@@ -65,7 +80,16 @@
       <workItem from="1608031807031" duration="426000" />
       <workItem from="1608037286505" duration="2791000" />
       <workItem from="1608104607959" duration="5384000" />
+      <workItem from="1608196413955" duration="11646000" />
     </task>
+    <task id="LOCAL-00001" summary="BierHier Project">
+      <created>1608149175857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608149175857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,10 +107,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1608105269889">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.383.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1608105269889" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BierHier Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="BierHier Project" />
   </component>
 </project>
