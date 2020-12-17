@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.active {
+    opacity: 0.5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section:first-o {
+    margin-top: 50px;
+}
+
+/* Header and Navigation */
+
+header {
+    background-color: darkgray;
+    margin: 0;
+    padding: 2rem 1rem;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container img {
+    max-width: 9.375rem;
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding-right: 0.6em;
+    font-weight: bold;
+    color: black;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+    border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    header nav {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    header .container {
+        flex-direction: row;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header .container img {
+        max-width: 7.375rem;
+    }
+}
+
+/* Main Content */
+
+.sport_evenement,
+.address {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sport_evenement a {
+    text-align: center;
+}
+
+.sport_evenement a img {
+    width: 80%;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    padding: 1rem;
+    color: white;
+    background-image: url("../img/header-kick.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-end;
+}
+
+footer nav h5 {
+    margin-left: 40px;
+}
+
+footer nav ul li {
+    list-style-type: none;
+    margin-bottom: 0.6em;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+}
+
+footer nav ul li a:hover,
+footer nav ul li a:focus {
+    border-bottom: 2px solid white;
+}
+
+ @media screen and (max-width: 1200px) {
+    footer .container {
+        grid-template-columns: 1fr;
+    }
+
+    footer .container h4 {
+        margin-left: 40px;
+    }
+ }
+
+ @media screen and (max-width: 1024px) {
+    footer {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75)) ,url("../img/header-kick.jpg");
+
+    }
+ }

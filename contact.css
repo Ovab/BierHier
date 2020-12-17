@@ -1,7 +1,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media all and (min-width: 300px) {
     body{
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 1fr 6fr;
         grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto auto;
@@ -13,6 +13,7 @@
         width: 400px;
     }
     a {text-decoration: none;color: white}
+
 
     ul {
         margin: 0;
@@ -68,14 +69,14 @@
 
     .footer{grid-column: 1/10; background-color: grey;}
     .footercontent{grid-column:1/10; grid-row: 11; color: white; margin:20px; background-color: grey}
-    >>>>>>> fe27d7f09499662e8c23506fce7a5dfe64bb38a9
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 800px) {
     body{
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 1fr 6fr;
         grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto 700px;
@@ -144,8 +145,10 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body{
+        max-width: 100%;
+        overflow-x: hidden;
         font-family: 'JetBrains Mono', "Roboto Thin";
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
 
         grid-template-columns: 400px 400px 400px;
