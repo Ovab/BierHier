@@ -1,6 +1,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media all and (min-width: 300px) {
     body{
+        font-family: 'JetBrains Mono', "Roboto Thin" ;
         background-color: lightpink;
         display: grid;
         grid-template-columns: 1fr 4fr;
