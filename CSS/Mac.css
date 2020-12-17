@@ -1,0 +1,212 @@
+@media all and (min-width: 300px) {
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'JetBrains Mono', "Roboto Thin";
+        background-color: lightpink;
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto auto;
+        grid-column-gap: 50px;
+        margin: 0;
+    }
+    .img{
+        align-self: center;
+        width: 400px;
+    }
+    a {text-decoration: none;color: white}
+
+    ul {
+        margin: 0;
+        padding:0px;
+        grid-column: 1/5;
+        display: flex;
+        list-style: none;
+    }
+    li {
+        grid-column: 1/5;
+        flex: 100%;
+        text-align: center;
+        background-color: grey;
+    }
+    .nav{display: none; visibility: hidden}
+    .mobileNav{
+        background-color: gray;
+        grid-row:2;
+        grid-column: span 15;
+    }
+    .mobileNav2{
+        background-color: gray;
+        grid-row:3;
+        grid-column: span 15;
+    }
+    .mobileNav3{
+        background-color: gray;
+        grid-row:4;
+        grid-column: span 15;
+    }
+    .mobileNav4{
+        background-color: gray;
+        grid-row:5;
+        grid-column: span 15;
+    }
+    .mobileNav5{
+        background-color: gray;
+        grid-row:6;
+        grid-column: span 15;
+    }
+
+
+
+
+    .titlebar{grid-column: span 50; grid-row: 7}
+
+    .bar1 {display: none; visibility: hidden}
+    .bar1{grid-column: 1;grid-row: 8; }
+    .bar2 {grid-column: 1; grid-row: 9}
+
+    .bar3{display: none}
+    .bar3m{grid-column: 1; grid-row: 11;}
+
+    .bar4{grid-column: 1; grid-row: 10;}
+    .bar1m{grid-column: 1; grid-row: 8}
+    .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1}
+    .footer{grid-column: 1/10; background-color: grey; grid-row: 12}
+    .footercontent{grid-column:1/10; grid-row: 12; color: white; margin:20px; background-color: grey}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 800px) {
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: lightpink;
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto auto;
+        grid-column-gap: 50px;
+        margin: 0;
+    }
+    .img{
+        align-self: center;
+        width: 400px;
+    }
+    a {text-decoration: none;color: white}
+
+    ul {
+        margin: 0;
+        padding:0px;
+        grid-column: 1/5;
+        display: flex;
+        list-style: none;
+    }
+    li {
+        grid-column: 1/5;
+        flex: 100%;
+        text-align: center;
+        background-color: grey;
+    }
+    .nav{display: none; visibility: hidden}
+    .mobileNav{
+        background-color: gray;
+        padding-left: 50px;
+        grid-row:2;
+        grid-column: span 15;
+    }
+    .mobileNav2{
+        background-color: gray;
+        padding-left: 50px;
+        grid-row:3;
+        grid-column: span 15;
+    }
+    .mobileNav3{
+        background-color: gray;
+        padding-left: 50px;
+        grid-row:4;
+        grid-column: span 15;
+    }
+    .mobileNav4{
+        background-color: gray;
+        padding-left: 50px;
+        grid-row:5;
+        grid-column: span 15;
+    }
+    .mobileNav5{
+        background-color: gray;
+        padding-left: 50px;
+        grid-row:6;
+        grid-column: span 15;
+    }
+
+
+
+
+
+    .titlebar{grid-column: 1/2; grid-row: 7}
+
+    .bar1 {display: none; visibility: hidden}
+    .bar1m{grid-column: 1;grid-row: 9; margin-left: 50px}
+    .bar2 {grid-column: 1; grid-row: 9; margin-left: 50px}
+
+    .bar3{display: none}
+    .bar3m{grid-column: 1; grid-row: 11; margin-left: 50px;}
+
+    .bar4{grid-column: 1; grid-row: 10; margin-left: 50px}
+    .bar1m{grid-column: 1; grid-row: 8}
+    .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1}
+    .footer{grid-column: 1/10; background-color: grey; grid-row: 12}
+    .footercontent{grid-column:1/10; grid-row: 12; color: white; margin:20px; background-color: grey}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'JetBrains Mono', "Roboto Thin";
+        background-color: lightpink;
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 20px 50px auto auto auto;
+        grid-column-gap: 50px;
+        padding: 0;
+        margin: 0;
+    }
+    a {text-decoration: none;color: white}
+
+    .ul {
+        font-size: 20px;
+        padding-right: 500px;
+        grid-column: span 10;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .li {
+        grid-column: span 100;
+        text-align: left;
+        background-color: grey;
+    }
+
+    .nav{display: flex; visibility: visible}
+    .mobileNav{display: none; visibility: hidden}
+    .mobileNav2{display: none; visibility: hidden}
+    .mobileNav3{display: none; visibility: hidden}
+    .mobileNav4{display: none; visibility: hidden}
+    .mobileNav5{display: none; visibility: hidden}
+    .top-bar{grid-column: span 99; background-color: grey;
+    }
+
+    .bar1 {grid-column: 1;grid-row: 3; padding-top: 50px; padding-left: 50px; display: grid; visibility: visible}
+
+    .bar2 {grid-column: 2;grid-row: 3;padding-top: 60px}
+
+    .bar3{grid-column: 1; grid-row: 4; margin-left: 40px; display: grid; visibility: visible }
+    .bar3m{display: none; visibility: hidden}
+    .bar1m{visibility: hidden; display: none}
+    .bar4{grid-column: 3; grid-row: 3; margin-top: 130px}
+    .footer{grid-column:span 30; grid-row: 5; background-color: grey; margin-top: 100px}
+    .footercontent{grid-column:span 30; grid-row: 5; color: white; margin:20px}
+
+}

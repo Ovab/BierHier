@@ -1,10 +1,13 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media all and (min-width: 300px) {
     body{
-        background-color: blanchedalmond;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'JetBrains Mono', "Roboto Thin";
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 1fr 4fr;
-        grid-template-rows: 20px 50px 50px 50px 50px 50px;
+        grid-template-rows: 20px 50px 50px 50px 50px 50px 50px auto auto auto auto;
         grid-column-gap: 50px;
         margin: 0;
     }
@@ -53,6 +56,11 @@
         grid-row:6;
         grid-column: span 15;
     }
+    .mobileNav6{
+        background-color: gray;
+        grid-row:7;
+        grid-column: span 15;
+    }
 
 
 
@@ -65,22 +73,21 @@
 
     .bar3{grid-column: 1}
     .top-bar{grid-column: 1/50; background-color: grey; grid-row: 1}
-    .footer{grid-column:span 30; grid-row: 7; background-color: grey; margin-top: 100px; grid-column:1 }
-    .footercontent{grid-column:span 30; grid-row: 7; color: white; margin:20px}
+    .footer{grid-column:span 30; grid-row: 14; background-color: grey; margin-top: 10px;}
+    .footercontent{grid-column:span 30; grid-row: 16; color: white; margin:20px}
 }
 
-/* Medium devices (landscape tablets, 768px and up)
+/* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 800px) {
     body{
-        background-color: blanchedalmond;
+        font-family: 'JetBrains Mono', "Roboto Thin";
+        background-color: lightpink;
         display: grid;
-        grid-column-gap: 10px;
         margin: 0;
         grid-template-columns: 1fr 6fr;
-        grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto 700px;
-        grid-column-gap: 50px;
-        margin: 10px;
+        grid-template-rows: auto 50px 50px 50px 50px 50px 70px auto auto auto auto;
+        grid-column-gap: 25px;
     }
     a {text-decoration: none;color: white}
 
@@ -99,30 +106,49 @@
         justify-content: space-around;
         list-style: none;
     }
-    .nav{display: flex; visibility: visible}
-    .mobileNav{display: none; visibility: hidden}
-    .mobileNav2{display: none; visibility: hidden}
-    .mobileNav3{display: none; visibility: hidden}
-    .mobileNav4{display: none; visibility: hidden}
-    .mobileNav5{display: none; visibility: hidden}
-    .coolstuff{display: none}
+    .nav{display: none; visibility: hidden}
+    .mobileNav{
+        background-color: gray;
+        grid-row:2;
+        grid-column: span 17;
+    }
+    .mobileNav2{
+        background-color: gray;
+        grid-row:3;
+        grid-column: span 17;
+    }
+    .mobileNav3{
+        background-color: gray;
+        grid-row:4;
+        grid-column: span 17;
+    }
+    .mobileNav4{
+        background-color: gray;
+        grid-row:5;
+        grid-column: span 17;
+    }
+    .mobileNav5{
+        background-color: gray;
+        grid-row:6;
+        grid-column: span 17;
+    }
 
-    .top-bar{grid-column: 1/20; background-color: #66ffff;}
+    .top-bar{grid-column: 1/20; background-color: gray}
 
     .titlebar{grid-column: 1/2; grid-row: 7}
 
     .bar1 {grid-column: 1}
 
-    .bar2 {grid-column: 2}
+    .bar2 {grid-column: 1}
 
-    .bar3{grid-column: 2}
+    .bar3{grid-column: 2; grid-row: 7}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body{
         font-family: 'JetBrains Mono', "Roboto Thin";
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 400px 400px 400px;
         grid-template-rows: 20px 50px 800px 320px;
@@ -136,14 +162,13 @@
 
     ul {
         font-size: 20px;
-        padding-right: 500px;
-        grid-column: span 10;
+        grid-column: span 50;
         display: flex;
         justify-content: space-around;
         list-style: none;
     }
     .li {
-        grid-column: span 100;
+        grid-column: span 5;
         text-align: left;
         background-color: grey;
     }
@@ -153,7 +178,8 @@
     .mobileNav3{display: none; visibility: hidden}
     .mobileNav4{display: none; visibility: hidden}
     .mobileNav5{display: none; visibility: hidden}
-    .top-bar{grid-column: span 99; background-color: grey;}
+    .mobileNav6{display: none; visibility: hidden}
+    .top-bar{grid-column: span 30; background-color: grey;}
 
     .titlebar{grid-column: 1/2; grid-row: 3; margin-left: 20px}
 
