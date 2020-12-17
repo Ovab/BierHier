@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da1bde1b-f90a-48b4-96a0-22455a0a4467" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/concert.css" beforeDir="false" afterPath="$PROJECT_DIR$/concert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concert.html" beforeDir="false" afterPath="$PROJECT_DIR$/concert.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,14 @@
       <workItem from="1608188557301" duration="20000" />
       <workItem from="1608194087178" duration="399000" />
     </task>
+    <task id="LOCAL-00001" summary="font changed">
+      <created>1608217515376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608217515376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -54,5 +63,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="font changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="font changed" />
   </component>
 </project>
