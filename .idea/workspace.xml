@@ -37,10 +37,14 @@
       <updated>1608188555403</updated>
       <workItem from="1608188557301" duration="20000" />
       <workItem from="1608194087178" duration="399000" />
+      <workItem from="1608213889397" duration="2022000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

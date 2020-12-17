@@ -69,7 +69,7 @@
 
     .footer{grid-column: 1/10; background-color: grey;}
     .footercontent{grid-column:1/10; grid-row: 11; color: white; margin:20px; background-color: grey}
-    >>>>>>> fe27d7f09499662e8c23506fce7a5dfe64bb38a9
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -145,6 +145,8 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body{
+        max-width: 100%;
+        overflow-x: hidden;
         font-family: 'JetBrains Mono', "Roboto Thin";
         background-color: lightpink;
         display: grid;

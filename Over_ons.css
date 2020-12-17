@@ -1,5 +1,7 @@
 @media all and (min-width: 300px) {
     body{
+        max-width: 100%;
+        overflow-x: hidden;
         background-color: blanchedalmond;
         display: grid;
         grid-template-columns: 600px 600px;
