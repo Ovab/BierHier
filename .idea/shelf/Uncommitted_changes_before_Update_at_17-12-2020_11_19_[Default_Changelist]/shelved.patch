@@ -1,0 +1,60 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"21831638-cfce-4253-b83a-c1b146e2a79a\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1le7GMrKbRDmiRHR7LPWjcnscAq\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"21831638-cfce-4253-b83a-c1b146e2a79a\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1607945606530</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1607945606530</updated>\r\n      <workItem from=\"1607945607676\" duration=\"4449000\" />\r\n      <workItem from=\"1608018040751\" duration=\"4407000\" />\r\n      <workItem from=\"1608028196673\" duration=\"3227000\" />\r\n      <workItem from=\"1608031807031\" duration=\"426000\" />\r\n      <workItem from=\"1608037286505\" duration=\"2791000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,12 +1,20 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="21831638-cfce-4253-b83a-c1b146e2a79a" name="Default Changelist" comment="" />
++    <list default="true" id="4be95bbc-478f-40cf-a0b4-13cfb50aa2eb" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/concert.css" beforeDir="false" afterPath="$PROJECT_DIR$/concert.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/concert.html" beforeDir="false" afterPath="$PROJECT_DIR$/concert.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="ComposerSettings">
++    <execution />
++  </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+@@ -29,12 +37,18 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="21831638-cfce-4253-b83a-c1b146e2a79a" name="Default Changelist" comment="" />
++      <changelist id="4be95bbc-478f-40cf-a0b4-13cfb50aa2eb" name="Default Changelist" comment="" />
+       <created>1607945606530</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+@@ -44,6 +58,7 @@
+       <workItem from="1608028196673" duration="3227000" />
+       <workItem from="1608031807031" duration="426000" />
+       <workItem from="1608037286505" duration="2791000" />
++      <workItem from="1608196007512" duration="4219000" />
+     </task>
+     <servers />
+   </component>
