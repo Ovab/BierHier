@@ -2,7 +2,7 @@
     body{
         max-width: 100%;
         overflow-x: hidden;
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 600px 600px;
         grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto auto;
@@ -75,7 +75,7 @@
 
 @media only screen and (min-width: 800px) {
     body{
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
         grid-template-columns: 1fr 6fr;
         grid-template-rows: 20px 50px 50px 50px 50px 50px 70px auto auto auto 700px;
@@ -145,7 +145,7 @@
 @media only screen and (min-width: 1200px) {
     body{
         font-family: 'JetBrains Mono', "Roboto Thin";
-        background-color: blanchedalmond;
+        background-color: lightpink;
         display: grid;
         grid-template-columns:600px 600px 600px 600px;
         grid-template-rows: 20px 50px auto auto;
@@ -214,7 +214,7 @@
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: 50%;
     text-align: center;
 }
 
